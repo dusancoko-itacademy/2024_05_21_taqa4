@@ -8,5 +8,13 @@ This is a demonstration project using Quart application framework.
 - [Quart](https://quart.palletsprojects.com/en/latest/) - Web framework for asyncronous requests
 - [MySQL Connector](https://github.com/mysql/mysql-connector-python) - Native MySQL Connector written in Python
 
+### Environment Variables
+You can create an **.env** file with following data or just use system environment variables.
+HOST=_yourhost_
+PORT=_yourport_
+USER=_youruser_
+PASSWORD=_yourpassword_
+DATABASE=_yourdatabase_
+
 Powered by Quart
 <img src="https://quart.palletsprojects.com/en/latest/_static/logo_short.png" width="80" />
