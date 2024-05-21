@@ -10,11 +10,11 @@ This is a demonstration project using Quart application framework.
 
 ### Environment Variables
 You can create an **.env** file with following data or just use system environment variables.
-HOST=_yourhost_
-PORT=_yourport_
-USER=_youruser_
-PASSWORD=_yourpassword_
-DATABASE=_yourdatabase_
+TAQA_HOST=_yourhost_
+TAQA_PORT=_yourport_
+TAQA_USER=_youruser_
+TAQA_PASSWORD=_yourpassword_
+TAQA_DATABASE=_yourdatabase_
 
 Powered by Quart
 <img src="https://quart.palletsprojects.com/en/latest/_static/logo_short.png" width="80" />

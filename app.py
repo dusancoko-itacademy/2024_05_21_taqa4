@@ -17,11 +17,11 @@ async def hello():
 
 @app.route('/users')
 def get_users():
-    connection = mysql.connect(host=os.getenv('HOST'),
-                               port=os.getenv('PORT'),
-                               user=os.getenv('USER'),
-                               password=os.getenv('PASSWORD'),
-                               database=os.getenv('DATABASE'))
+    connection = mysql.connect(host=os.getenv('TAQA_HOST'),
+                               port=os.getenv('TAQA_PORT'),
+                               user=os.getenv('TAQA_USER'),
+                               password=os.getenv('TAQA_PASSWORD'),
+                               database=os.getenv('TAQA_DATABASE'))
     cursor = connection.cursor(dictionary=True)
     cursor.execute("SELECT * FROM users;")
     users = [row for row in cursor.fetchall()]
