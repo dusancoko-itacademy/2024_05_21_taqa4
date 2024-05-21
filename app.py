@@ -18,7 +18,7 @@ async def hello():
 @app.route('/users')
 def get_users():
     connection = mysql.connect(host=os.getenv('TAQA_HOST'),
-                               port=os.getenv('TAQA_PORT'),
+                               port=int(os.getenv('TAQA_PORT')),
                                user=os.getenv('TAQA_USER'),
                                password=os.getenv('TAQA_PASSWORD'),
                                database=os.getenv('TAQA_DATABASE'))
