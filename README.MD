@@ -9,4 +9,4 @@ This is a demonstration project using Quart application framework.
 - [MySQL Connector](https://github.com/mysql/mysql-connector-python) - Native MySQL Connector written in Python
 
 Powered by Quart
-![Logo for quart](https://quart.palletsprojects.com/en/latest/_static/logo_short.png){width=80}
+<img src="https://quart.palletsprojects.com/en/latest/_static/logo_short.png" width="80" />
